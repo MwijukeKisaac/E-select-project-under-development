@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="20dp"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imagecourt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/court"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/UserLoginForm"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#0424EF"
+        android:text="User Login Form"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/ForceNumberEditText"
+            android:hint="Force Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:id="@+id/PasswordEditText"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="SUBMIT"
+        android:onClick="GoToHome"
+        android:textSize="26sp"
+        android:background="#130A47"
+        android:textColor="@color/white"
+        android:id="@+id/confirm_button"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:textColor="#FC0373"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textColor="#0643DA"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:onClick="GoToCreate"
+            android:text="SignUp here"
+            android:textColor="#FC0373"
+            android:textSize="24sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Advanced User Form"
+        android:onClick="GoT0CA"
+        android:textSize="26sp"
+        android:background="#130A47"
+        android:textColor="@color/white"
+        />
+    </LinearLayout>
+</ScrollView>
