@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:paddingHorizontal="10dp"
+    android:background="@android:color/darker_gray"
     tools:context=".MainActivity">
     <ImageView
         android:layout_width="wrap_content"

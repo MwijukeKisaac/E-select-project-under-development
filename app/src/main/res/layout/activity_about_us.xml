@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!-- Title -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/court" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crimes Records Information and Verification Tracking System (MODERN POLICE APP)"
+        android:textSize="20sp"
+            android:textColor="#0C0C0C"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="#096E9C" />
+
+
+        <!-- Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0C0C0C"
+        android:layout_marginTop="16dp"
+        android:text="The Crimes Records Information and Verification Tracking System (CRIVTS) is a comprehensive system designed to manage and track criminal records and provide verification services. It serves as a central repository for storing and accessing information related to criminal activities, offenders, and law enforcement agencies." />
+
+    <!-- Features -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0C0C0C"
+        android:layout_marginTop="16dp"
+        android:text="Key Features:"
+        android:textStyle="bold" />
+
+    <!-- Feature 1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0C0C0C"
+        android:layout_marginTop="8dp"
+        android:text="1. Criminal Records Management: CRIVTS enables efficient management of criminal records, including data entry, storage, search, and retrieval. It maintains a comprehensive database of criminal records with details such as personal information, offenses, convictions, and sentences." />
+
+    <!-- Feature 2 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0C0C0C"
+        android:layout_marginTop="8dp"
+        android:text="2. Verification Services: The system provides verification services to authorized individuals or organizations, allowing them to verify the criminal background of individuals. This feature ensures transparency and accuracy in background checks for various purposes, such as employment, licensing, and security clearances." />
+
+    <!-- Feature 3 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0C0C0C"
+        android:layout_marginTop="8dp"
+        android:text="3. Integration with Law Enforcement Agencies: CRIVTS integrates with law enforcement agencies' systems to facilitate seamless sharing of information. This promotes collaboration among different agencies and enhances the effectiveness of criminal investigations and crime prevention efforts." />
+
+    <!-- Feature 4 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0C0C0C"
+        android:layout_marginTop="8dp"
+        android:text="4. Reporting and Analytics: The system offers reporting and analytics capabilities to generate statistical reports, trends analysis, and insights. This helps law enforcement agencies and policymakers make informed decisions and devise strategies for crime prevention and law enforcement improvements." />
+
+    <!-- Conclusion -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#0C0C0C"
+        android:text="CRIVTS plays a crucial role in maintaining accurate and up-to-date criminal records, promoting public safety, and supporting the criminal justice system. It enhances the efficiency of law enforcement operations, facilitates background checks, and contributes to the overall security and well-being of society." />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </LinearLayout>
+</ScrollView>
